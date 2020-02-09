@@ -1,4 +1,4 @@
-import React,{Component } from 'react'
+import React,{ Component } from 'react'
 import UserDetails from './UserDetails'
 import Confirmation from './Confirmation'
 import PersonalDetails from './PersonalDetails'
@@ -57,13 +57,11 @@ class MainForm extends Component {
                                                 />
             case 4 :
                 return <Success />   
-            default: 
-                    
+            default : console.log('damn')     
 
         }
     }
 
 }
 
-
-export default MainForm
+export default MainForm;
